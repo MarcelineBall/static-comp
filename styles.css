@@ -6,3 +6,15 @@ header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+
+.drop-down-menu {
+  grid-column: 10 / 13;
+}
+
+.nav-bar {
+  grid-column: 1 / 6;
+}
+
+.logo {
+  grid-column: 10 / 13;
+}
