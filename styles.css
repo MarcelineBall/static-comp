@@ -1,0 +1,8 @@
+* {
+  border: 1px solid orange
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
