@@ -18,6 +18,7 @@ article {
   display: flex;
   flex-direction: column;
   position: relative;
+  background: white;
 }
 
 .drop-down-menu {
@@ -80,6 +81,10 @@ body {
 
 }
 
+p {
+  margin: 0;
+}
+
 .views {
   margin: 0.2em;
 }
@@ -92,6 +97,36 @@ body {
   font-weight: lighter;
 }
 
-.card-text {
+.title-text {
   font-weight: lighter;
+  margin: 0;
+}
+
+.date-text {
+  margin: 0;
+}
+
+.title-area,
+.link-area,
+.playlist-area,
+.attachment-area {
+  margin: 1em;
+}
+
+.link-area {
+  margin: 0 1em;
+  padding: 0.5em;
+  background: #efefef;
+}
+
+.small-caps {
+  font-size: smaller;
+}
+
+.attachment-area {
+  margin-top: 0;
+}
+
+.attachment-number {
+  color: #4dacde
 }
