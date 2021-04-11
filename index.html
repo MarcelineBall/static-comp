@@ -1,128 +1,231 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Static Comp</title>
+    <script src="https://kit.fontawesome.com/eae4585e69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <div>This is where the drop menu goes</div>
-      <nav>
-        <button>Shares</button>
-        <button>Playlists</button>
-        <button>Personal Videos</button>
+    <header class="header">
+      <div class="drop-down-menu">
+        <i class="active far fa-user-circle"></i> 
+        <select class="drop-down">
+          <option name="admin-username" value="admin-username">Admin Username</select>
+        </select>
+      </div>
+      <nav class="nav-bar">
+        <button class="shares-button"><i class="fas fa-share-alt"></i>  SHARES</button>
+        <button><i class="fas fa-list-ul"></i>  PLAYLISTS</button>
+        <button><i class="far fa-user"></i> PERSONAL VIDEOS</button>
       </nav>
-      <img>logo</img>
+      <h1 class="logo">2Meme! <i class="fas fa-laptop"></i></h1>
     </header>
     <main>
-      <h1>Shares</h1>
-      <section>
+      <h2>Shares</h2>
+      <section class="card-section">
         <article class="first-card">
-          <img class="background-image" src="./src/cake-pillow.jpg" alt="Man using cake as a pillow">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image" src="./src/cake-pillow.jpg" alt="Man using cake as a pillow">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
         <article class="second-card">
-          <img class="background-image" src="./src/guess-ill-die.webp" alt="Old man shrugging">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image" src="./src/guess-ill-die.webp" alt="Old man shrugging">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
         <article class="third-card">
-          <img class="background-image" src="./src/cake-pillow.jpg" alt="Man using cake as a pillow">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image" src="./src/distracted.jpg" alt="Man using cake as a pillow">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
         <article class="fourth-card">
-          <img class="background-image" src="./src/corn.jpg" alt="Woman with a sci-fi visor looking at a cob of corn">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image" src="./src/corn.jpg" alt="Woman with a sci-fi visor looking at a cob of corn">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
         <article class="fifth-card">
-          <img class="background-image">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image"src="./src/hidethepainharold.jpg" alt="Older man with a pained expression on his face looks at the camera while holding a phone to his ear">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
         <article class="sixth-card">
-          <img class="background-image">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image" src="./src/no-potato.webp" alt="Woman at a computer holding her hand up to dismiss a potato on a plate">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
         <article class="seventh-card">
-          <img class="background-image">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image" src="./src/man-with-gun.jpg" alt="A man in a suit pointing a handgun at a laptop">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
         <article class="eighth-card">
-          <img class="background-image">
-          <img class="icon">
-          <p>views</p>
-          <p>02(large)</p>
-          <h2>Recipeint's Namehere</h2>
-          <p>Monday 01/23/16 10:22am</p>
-          <p>http://2win.2winstage.com/p/recipeints_namehere</p>
-          <p>PLAYLIST</p>
-          <p>Name of Playlist(bigger)</p>
-          <p>ATTACHMENTS</p>
-          <p>04(large)</p>
+          <div class="picture-area">
+            <img class="background-image" src="./src/shhh-stock-photo.webp" alt="Man in a suit looking at the camera and holding his finger to his mouth in a shushing motion. Another man is in the foreground facing away from the camera, and is holding a megaphone">
+          </div>
+          <div class="reply-arrow-container">
+            <i class="fas fa-reply"></i>
+          </div>
+          <div class="over-picture-text">
+            <p class="small-caps views">VIEWS</p>
+            <p class="large-numbers">02</p>
+          </div>
+          <div class="title-area">
+            <h2 class="title-text">Recipeint's Namehere</h2>
+            <p class="date-text">Monday 01/23/16 10:22am</p>
+          </div>
+          <p class="link-area">http://2win.2winstage.com/p/recipeints_namehere</p>
+          <div class="playlist-area">
+            <p class="small-caps">PLAYLIST</p>
+            <p class="card-text">Name of Playlist</p>
+          </div>
+          <div class="attachment-area">
+            <p class="small-caps">ATTACHMENTS</p>
+            <p class="large-numbers attachment-number">04</p>
+          </div>
         </article>
       </section>
     </main>
-
   </body>
 </html>
