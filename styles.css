@@ -59,7 +59,7 @@ body {
   border-radius: 4em;
   justify-content: center;
   align-items: center;
-  background: gray;
+  background: #fefefe;
   top: 1em;
   left: 1em;
   position: absolute;
@@ -68,5 +68,30 @@ body {
 .fa-reply {
   font-size: 6vh;
   transform: scaleX(-1);
-  /* position: absolute; */
+}
+
+.over-picture-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: #fefefe;
+
+}
+
+.views {
+  margin: 0.2em;
+}
+
+.large-numbers {
+  font-size: 2.5em;
+  margin: 0;
+  align-self: center;
+  color: #fefefe;
+  font-weight: lighter;
+}
+
+.card-text {
+  font-weight: lighter;
 }
